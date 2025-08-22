@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Multi-API Data Fetcher</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app-container">
+        <h1>Codtech Multi-API Project</h1>
+        
+        <div class="nav-buttons">
+            <button id="btn-meal">Random Meal</button>
+            <button id="btn-weather">Weather</button>
+            <button id="btn-news">Top News</button>
+        </div>
+
+        <div id="weather-input-container" class="input-container" style="display: none;">
+            <input type="text" id="city-input" placeholder="Enter city name (e.g., Bakrol)">
+            <button id="weather-submit">Get Weather</button>
+        </div>
+        
+        <hr>
+
+        <div id="data-container">
+            <p>Select an option above to get started!</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
